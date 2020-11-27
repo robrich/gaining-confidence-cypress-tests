@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1234567,
+    "title": "This is the first story",
+    "points": 523,
+    "user": "example1",
+    "time": 1606475394,
+    "time_ago": "an hour ago",
+    "comments_count": 101,
+    "type": "link",
+    "url": "http://example.com/story1.html",
+    "domain": "example.com"
+  },
+  {
+    "id": 2345678,
+    "title": "This is the second story",
+    "points": 432,
+    "user": "example2",
+    "time": 1606475394,
+    "time_ago": "2 hours ago",
+    "comments_count": 202,
+    "type": "link",
+    "url": "http://example.com/story2.html",
+    "domain": "example.com"
+  },
+  {
+    "id": 2345677,
+    "title": "This is the third story",
+    "points": 432,
+    "user": "example3",
+    "time": 1606475394,
+    "time_ago": "3 hours ago",
+    "comments_count": 303,
+    "type": "link",
+    "url": "http://example.com/story3.html",
+    "domain": "example.com"
+  },
+  {
+    "id": 2345676,
+    "title": "This is the fourth story",
+    "points": 432,
+    "user": "example4",
+    "time": 1606475394,
+    "time_ago": "4 hours ago",
+    "comments_count": 404,
+    "type": "link",
+    "url": "http://example.com/story4.html",
+    "domain": "example.com"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "cypress-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run-chrome": "cypress run --headless --browser chrome",
+    "cy:run-firefox": "cypress run --headless --browser firefox",
+    "cy:run-edge": "cypress run --headless --browser edge",
+    "test": "npm run cy:run-chrome && npm run cy:run-firefox && cy:run-edge"
+  },
+  "devDependencies": {
+    "cypress": "^6.0.0",
+    "typescript": "^4.1.2"
+  }
+}
