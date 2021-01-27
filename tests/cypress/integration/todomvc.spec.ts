@@ -1,8 +1,8 @@
 /// <reference path="../support/commands.d.ts" />
 
-const SITE_URL = 'http://todomvc.com/examples/angularjs/#/';
-//const SITE_URL = 'http://todomvc.com/examples/backbone/';
-//const SITE_URL = 'http://todomvc.com/examples/vue/';
+const SITE_URL = 'https://todomvc.com/examples/angularjs/#/';
+//const SITE_URL = 'https://todomvc.com/examples/backbone/';
+//const SITE_URL = 'https://todomvc.com/examples/vue/';
 
 const siteName = SITE_URL.split('/').filter(p => p && p !== '#').pop();
 

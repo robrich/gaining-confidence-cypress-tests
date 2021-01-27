@@ -18,13 +18,6 @@ describe(`hnpwa: ${hnSiteName}`, () => {
 
   });
 
-  it('should load stories', () => {
-
-    // assert
-    cy.get('.list-margin>li').should('have.length', 30);
-
-  });
-
   it('should have specific top story', () => {
 
     // arrange
@@ -38,6 +31,17 @@ describe(`hnpwa: ${hnSiteName}`, () => {
 
     // assert
     cy.get('.post:nth-child(1)').should('contain', title);
+
+  });
+
+  it('should load stories', () => {
+
+    // arrange
+    //cy.intercept(/^https:\/\/node-hnapi\.herokuapp\.com\//).as('getStories');
+    //cy.wait('@getStories');
+
+    // assert
+    cy.get('.list-margin>li').should('have.length', 30);
 
   });
 
