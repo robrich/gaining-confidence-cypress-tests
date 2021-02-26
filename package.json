@@ -9,7 +9,7 @@
     "cy:run-chrome": "cypress run --headless --browser chrome",
     "cy:run-firefox": "cypress run --headless --browser firefox",
     "cy:run-edge": "cypress run --headless --browser edge",
-    "test": "npm run cy:run-chrome && npm run cy:run-firefox && cy:run-edge"
+    "test": "npm run cy:run-chrome && npm run cy:run-firefox && npm run cy:run-edge"
   },
   "devDependencies": {
     "cypress": "^6.3.0",
