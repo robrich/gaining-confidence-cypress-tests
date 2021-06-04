@@ -9,6 +9,7 @@ const siteName = SITE_URL.split('/').filter(p => p && p !== '#').pop();
 describe(`todomvc: ${siteName}`, () => {
 
   beforeEach(() => {
+    // arrange
     cy.visit(SITE_URL);
   });
 
@@ -105,6 +106,7 @@ describe(`todomvc: ${siteName}`, () => {
     cy.todoAdd(newTodo);
     cy.todoComplete(newTodo);
     cy.contains('.filters a', 'Completed').click();
+    //cy.get('[data-cy="completed"]').click();
 
     // assert
     cy.get('.todo-list>li:visible').should('have.length', 1);
