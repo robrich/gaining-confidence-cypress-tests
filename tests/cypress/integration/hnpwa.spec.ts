@@ -22,11 +22,12 @@ describe(`hnpwa: ${hnSiteName}`, () => {
 
     // arrange
     const title = 'This is the first story';
-
     cy.intercept(/^https:\/\/node-hnapi\.herokuapp\.com\//, {
       headers: {'access-control-allow-origin': '*'},
       fixture: 'hacker-news'
     });
+
+    // act
     cy.visit(HN_SITE_URL);
 
     // assert
