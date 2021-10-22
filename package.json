@@ -12,7 +12,7 @@
     "test": "npm run cy:run-chrome && npm run cy:run-firefox && npm run cy:run-edge"
   },
   "devDependencies": {
-    "cypress": "^8.0.0",
-    "typescript": "^4.3.5"
+    "cypress": "^8.6.0",
+    "typescript": "^4.4.4"
   }
 }
